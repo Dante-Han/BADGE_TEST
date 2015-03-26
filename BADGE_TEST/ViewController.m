@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "UIView+MGBadgeView.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    [self.button.badgeView setBadgeValue:9];
+    [self.button.badgeView setOutlineWidth:0.0];
+    [self.button.badgeView setBadgeColor:[UIColor redColor]];
+    [self.button.badgeView setPosition:MGBadgePositionTopRight];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

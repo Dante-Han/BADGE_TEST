@@ -14,6 +14,7 @@
 		3E92F1931AC10E99003BE37F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E92F1921AC10E99003BE37F /* Images.xcassets */; };
 		3E92F1961AC10E99003BE37F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E92F1941AC10E99003BE37F /* LaunchScreen.xib */; };
 		3E92F1A21AC10E99003BE37F /* BADGE_TESTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E92F1A11AC10E99003BE37F /* BADGE_TESTTests.m */; };
+		3E92F1AD1AC10EDB003BE37F /* UIView+MGBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E92F1AC1AC10EDB003BE37F /* UIView+MGBadgeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		3E92F19B1AC10E99003BE37F /* BADGE_TESTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BADGE_TESTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E92F1A01AC10E99003BE37F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E92F1A11AC10E99003BE37F /* BADGE_TESTTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BADGE_TESTTests.m; sourceTree = "<group>"; };
+		3E92F1AB1AC10EDB003BE37F /* UIView+MGBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MGBadgeView.h"; sourceTree = SOURCE_ROOT; };
+		3E92F1AC1AC10EDB003BE37F /* UIView+MGBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MGBadgeView.m"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		3E92F1841AC10E99003BE37F /* BADGE_TEST */ = {
 			isa = PBXGroup;
 			children = (
+				3E92F1AB1AC10EDB003BE37F /* UIView+MGBadgeView.h */,
+				3E92F1AC1AC10EDB003BE37F /* UIView+MGBadgeView.m */,
 				3E92F1891AC10E99003BE37F /* AppDelegate.h */,
 				3E92F18A1AC10E99003BE37F /* AppDelegate.m */,
 				3E92F18C1AC10E99003BE37F /* ViewController.h */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E92F18E1AC10E99003BE37F /* ViewController.m in Sources */,
+				3E92F1AD1AC10EDB003BE37F /* UIView+MGBadgeView.m in Sources */,
 				3E92F18B1AC10E99003BE37F /* AppDelegate.m in Sources */,
 				3E92F1881AC10E99003BE37F /* main.m in Sources */,
 			);
